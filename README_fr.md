@@ -134,16 +134,15 @@ MITRE Navigator → Export JSON → Analyse → Top techniques → Rapport
 
 ```text
 mitre-navigator-score-analyzer/
-├── README.md              # 🇬🇧 Main documentation (English)
-├── README_fr.md           # 🇫🇷 Documentation (French)
-├── mitre_score_analyzer.py
-├── requirements.txt       # Python dependencies (optional)
+├── README.md                     # 🇬🇧 Documentation principale (anglais)
+├── README_fr.md                  # 🇫🇷 Documentation (français)
+├── mitre_score_analyzer.py       # Script principal d’analyse
+├── requirements.txt              # Dépendances Python (optionnel)
 ├── sample/
-│   └── example_layer.json # Sample MITRE Navigator export
+│   └── example_layer.json        # Exemple de fichier JSON MITRE Navigator
 ├── output/
-│   └── top_techniques.csv # Example output (generated)
-└── docs/
-    └── screenshots/       # Optional: tool or result screenshots
+│   └── example_top_techniques.csv # Exemple de fichier généré
+└── .gitignore                   # Fichiers ignorés par Git
 ```
 
 ---

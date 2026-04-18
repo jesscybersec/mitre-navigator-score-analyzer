@@ -1,0 +1,5 @@
+# Ignore tous les CSV générés
+output/*.csv
+
+# MAIS garder celui-ci
+!output/example_top_techniques.csv
