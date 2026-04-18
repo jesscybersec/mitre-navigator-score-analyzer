@@ -43,13 +43,13 @@ cd mitre-navigator-score-analyzer
 ### Linux / macOS
 
 ```bash
-python3 mitre_score_analyzer.py --file layer.json --top 10 --csv
+python3 mitre_score_analyzer.py --file example_layer.json --top 10 --csv
 ```
 
 ### Windows
 
 ```bash
-py mitre_score_analyzer.py --file layer.json --top 10 --csv
+py mitre_score_analyzer.py --file example_layer.json --top 10 --csv
 ```
 
 ---
