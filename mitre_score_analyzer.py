@@ -40,7 +40,7 @@ def positive_int(value: str) -> int:
     """Validate that a CLI argument is a strictly positive integer."""
     parsed = int(value)
     if parsed <= 0:
-        raise argparse.ArgumentTypeError("la valeur doit être un entier positif")
+        raise argparse.ArgumentTypeError("value must be a positive integer")
     return parsed
 
 
@@ -139,9 +139,7 @@ def fetch_technique_name_map(domain: str, timeout: int) -> dict[str, str]:
             last_error = exc
 
     if payload is None:
-        raise error.URLError(
-            f"aucune source ATT&CK officielle n'a répondu: {last_error}"
-        )
+        raise error.URLError(f"no official ATT&CK source responded: {last_error}")
 
     name_map: dict[str, str] = {}
     for stix_object in payload.get("objects", []):
@@ -227,74 +225,77 @@ def default_markdown_output_path(json_file: Path) -> Path:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Analyse un fichier JSON MITRE ATT&CK Navigator et affiche les techniques avec les scores les plus élevés."
+        description=(
+            "Analyze a MITRE ATT&CK Navigator JSON file and display the "
+            "highest-scoring techniques."
+        )
     )
     parser.add_argument(
         "--file",
         required=True,
-        help="Chemin vers le fichier JSON exporté depuis ATT&CK Navigator",
+        help="Path to the JSON file exported from ATT&CK Navigator",
     )
     parser.add_argument(
         "--top",
         type=positive_int,
         default=4,
-        help="Nombre de résultats à afficher (défaut: 4)",
+        help="Number of results to display (default: 4)",
     )
     parser.add_argument(
         "--csv",
         action="store_true",
-        help="Exporter les résultats triés en CSV",
+        help="Export the sorted results to CSV",
     )
     parser.add_argument(
         "--output",
-        help="Chemin du fichier CSV à générer (utilisable uniquement avec --csv)",
+        help="Path of the CSV file to generate (usable only with --csv)",
     )
     parser.add_argument(
         "--markdown",
         action="store_true",
-        help="Générer un rapport Markdown",
+        help="Generate a Markdown report",
     )
     parser.add_argument(
         "--markdown-output",
-        help="Chemin du fichier Markdown à générer (utilisable uniquement avec --markdown)",
+        help="Path of the Markdown file to generate (usable only with --markdown)",
     )
     parser.add_argument(
         "--lookup-names",
         action="store_true",
-        help="Récupérer les noms des techniques MITRE ATT&CK depuis les sources officielles MITRE",
+        help="Look up MITRE ATT&CK technique names from official MITRE sources",
     )
     parser.add_argument(
         "--attack-domain",
         choices=sorted(ATTACK_TAXII_COLLECTIONS),
         default="enterprise",
-        help="Domaine ATT&CK à utiliser pour la recherche de noms (défaut: enterprise)",
+        help="ATT&CK domain to use for name lookup (default: enterprise)",
     )
     parser.add_argument(
         "--lookup-timeout",
         type=positive_int,
         default=15,
-        help="Délai maximum en secondes pour la recherche de noms ATT&CK (défaut: 15)",
+        help="Maximum timeout in seconds for ATT&CK name lookup (default: 15)",
     )
 
     args = parser.parse_args()
     json_file = Path(args.file)
 
     if not json_file.exists():
-        raise FileNotFoundError(f"Fichier introuvable : {json_file}")
+        raise FileNotFoundError(f"File not found: {json_file}")
     if args.output and not args.csv:
-        parser.error("--output nécessite --csv")
+        parser.error("--output requires --csv")
     if args.markdown_output and not args.markdown:
-        parser.error("--markdown-output nécessite --markdown")
+        parser.error("--markdown-output requires --markdown")
 
     try:
         data = load_layer(json_file)
     except json.JSONDecodeError as exc:
-        raise ValueError(f"Fichier JSON invalide : {json_file}") from exc
+        raise ValueError(f"Invalid JSON file: {json_file}") from exc
 
     scored = extract_scored_techniques(data)
 
     if not scored:
-        print("Aucune technique avec score n'a été trouvée.")
+        print("No scored techniques were found.")
         return
 
     if args.lookup_names:
@@ -306,8 +307,8 @@ def main() -> None:
             scored = enrich_with_technique_names(scored, technique_names)
         except (error.URLError, TimeoutError, json.JSONDecodeError) as exc:
             print(
-                "Avertissement : impossible de récupérer les noms ATT&CK depuis les "
-                f"sources MITRE officielles ({exc}). Analyse poursuivie sans noms.",
+                "Warning: unable to retrieve ATT&CK names from official MITRE "
+                f"sources ({exc}). Continuing without names.",
                 file=sys.stderr,
             )
 
@@ -319,14 +320,14 @@ def main() -> None:
     print("=" * 70)
     print("MITRE ATT&CK Navigator JSON Analyzer")
     print("=" * 70)
-    print(f"Fichier analysé : {json_file.name}")
-    print(f"Nombre total de techniques scorées : {len(scored)}")
-    print(f"Score maximal observé : {max_score}")
+    print(f"Analyzed file: {json_file.name}")
+    print(f"Total scored techniques: {len(scored)}")
+    print(f"Maximum score observed: {max_score}")
     print()
 
     print(f"Top {displayed_count} techniques :")
     for i, tech in enumerate(top_n, start=1):
-        nature = "Sous-technique" if tech["is_subtechnique"] else "Technique"
+        nature = "Sub-technique" if tech["is_subtechnique"] else "Technique"
         technique_label = (
             f"{tech['techniqueID']} ({tech['technique_name']})"
             if tech["technique_name"]
@@ -336,7 +337,7 @@ def main() -> None:
             f"{i}. {technique_label} | {tech['tactic']} | "
             f"score={tech['score']} | {nature}"
         )
-        print(f"   Atomic Red Team : {tech['atomic_link']}")
+        print(f"   Atomic Red Team: {tech['atomic_link']}")
 
     csv_output_file = None
 
@@ -344,7 +345,7 @@ def main() -> None:
         csv_output_file = Path(args.output) if args.output else default_output_path(json_file)
         export_csv(sorted_techniques, csv_output_file)
         print()
-        print(f"Export CSV créé : {csv_output_file}")
+        print(f"CSV export created: {csv_output_file}")
 
     if args.markdown:
         markdown_output = (
@@ -362,7 +363,7 @@ def main() -> None:
         )
         export_markdown(markdown_report, markdown_output)
         print()
-        print(f"Rapport Markdown créé : {markdown_output}")
+        print(f"Markdown report created: {markdown_output}")
 
 
 if __name__ == "__main__":
