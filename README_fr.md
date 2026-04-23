@@ -98,19 +98,25 @@ Lorsque `--lookup-names` est activé, l'analyseur tente d'enrichir la sortie con
 
 ```text
 ======================================================================
-Analyseur JSON MITRE ATT&CK Navigator
+MITRE ATT&CK Navigator JSON Analyzer
 ======================================================================
-Fichier analysé : example_layer.json.json
-Nombre total de techniques scorées : 52
-Score maximal observé : 14
+Analyzed file: example_layer.json
+Total scored techniques: 172
+Maximum score observed: 12
 
-Top 4 des techniques :
+Top 3 techniques :
 
-1. T1059.001 | execution | score=14 | Sous-technique
-   Atomic Red Team : https://github.com/redcanaryco/atomic-red-team/...
+1. T1036.005 | defense-evasion | score=12 | Sub-technique
+   Atomic Red Team: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.005/T1036.005.md
 
-2. T1021.001 | lateral-movement | score=14 | Sous-technique
-   Atomic Red Team : https://github.com/redcanaryco/atomic-red-team/...
+2. T1059.001 | execution | score=12 | Sub-technique
+   Atomic Red Team: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md
+
+3. T1021.001 | lateral-movement | score=9 | Sub-technique
+   Atomic Red Team: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.001/T1021.001.md
+
+CSV export created: output\example_layer_top_techniques.csv
+Markdown report created: output\example_layer_report.md
 ```
 
 ---
@@ -166,12 +172,12 @@ MITRE Navigator → Export JSON → Analyse → Top techniques → Rapport
 mitre-navigator-score-analyzer/
 ├── README.md                     # 🇬🇧 Documentation principale (anglais)
 ├── README_fr.md                  # 🇫🇷 Documentation (français)
+├── example_layer.json            # Exemple de fichier JSON MITRE Navigator
 ├── mitre_score_analyzer.py       # Script principal d’analyse
 ├── requirements.txt              # Dépendances Python (optionnel)
-├── sample/
-│   └── example_layer.json        # Exemple de fichier JSON MITRE Navigator
 ├── output/
-│   └── example_top_techniques.csv # Exemple de fichier généré
+│   ├── example_top_techniques.csv # Exemple de sortie CSV
+│   └── example_report.md          # Exemple de synthèse Markdown
 └── .gitignore                   # Fichiers ignorés par Git
 ```
 
@@ -179,9 +185,9 @@ mitre-navigator-score-analyzer/
 
 ## ⚡ Améliorations futures
 
-* [ ] Valider automatiquement l’existence des tests Atomic Red Team
-* [ ] Générer un rapport Markdown
-* [ ] Ajouter la récupération des noms/descriptions via API MITRE
+* [x] Valider automatiquement l’existence des tests Atomic Red Team
+* [x] Générer un rapport Markdown
+* [x] Ajouter la récupération des noms/descriptions via API MITRE
 * [ ] Interface web (Streamlit ?)
 
 ---
