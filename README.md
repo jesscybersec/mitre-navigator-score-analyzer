@@ -100,17 +100,23 @@ When `--lookup-names` is enabled, the analyzer attempts to enrich the console, C
 ======================================================================
 MITRE ATT&CK Navigator JSON Analyzer
 ======================================================================
-File analyzed: example_layer.json
-Total scored techniques: 52
-Max score observed: 14
+Analyzed file: example_layer.json
+Total scored techniques: 172
+Maximum score observed: 12
 
-Top 4 techniques:
+Top 3 techniques :
 
-1. T1059.001 | execution | score=14 | Sub-technique
-   Atomic Red Team: https://github.com/redcanaryco/atomic-red-team/...
+1. T1036.005 | defense-evasion | score=12 | Sub-technique
+   Atomic Red Team: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.005/T1036.005.md
 
-2. T1021.001 | lateral-movement | score=14 | Sub-technique
-   Atomic Red Team: https://github.com/redcanaryco/atomic-red-team/...
+2. T1059.001 | execution | score=12 | Sub-technique
+   Atomic Red Team: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md
+
+3. T1021.001 | lateral-movement | score=9 | Sub-technique
+   Atomic Red Team: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.001/T1021.001.md
+
+CSV export created: output\example_layer_top_techniques.csv
+Markdown report created: output\example_layer_report.md
 ```
 
 ---
@@ -166,12 +172,12 @@ MITRE Navigator → Export JSON → Analyzer → Top Techniques → Report
 mitre-navigator-score-analyzer/
 ├── README.md                     # 🇬🇧 Main documentation (English)
 ├── README_fr.md                  # 🇫🇷 Documentation (French)
+├── example_layer.json            # Sample MITRE Navigator JSON file
 ├── mitre_score_analyzer.py       # Main analysis script
 ├── requirements.txt              # Python dependencies (optional)
-├── sample/
-│   └── example_layer.json        # Sample MITRE Navigator JSON file
 ├── output/
-│   └── example_top_techniques.csv # Example generated output
+│   ├── example_top_techniques.csv # Example CSV output
+│   └── example_report.md          # Example Markdown summary
 └── .gitignore                   # Ignore generated files
 ```
 
@@ -179,9 +185,9 @@ mitre-navigator-score-analyzer/
 
 ## ⚡ Future Improvements
 
-* [ ] Validate existence of Atomic Red Team tests automatically
-* [ ] Generate Markdown report
-* [ ] Add MITRE technique name lookup via API
+* [x] Validate existence of Atomic Red Team tests automatically
+* [x] Generate Markdown report
+* [x] Add MITRE technique name lookup via API
 * [ ] Web interface (Streamlit?)
 
 ---
