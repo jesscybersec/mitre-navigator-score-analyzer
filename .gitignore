@@ -1,5 +1,7 @@
 # Ignore tous les CSV générés
 output/*.csv
+output/*.md
 
 # MAIS garder celui-ci
 !output/example_top_techniques.csv
+!output/example_report.md

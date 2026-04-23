@@ -1,173 +1,173 @@
-techniqueID,tactic,score,is_subtechnique,atomic_link
-T1036.005,defense-evasion,12,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.005/T1036.005.md
-T1059.001,execution,12,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md
-T1021.001,lateral-movement,9,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.001/T1021.001.md
-T1078,defense-evasion,9,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078/T1078.md
-T1078,persistence,9,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078/T1078.md
-T1078,privilege-escalation,9,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078/T1078.md
-T1078,initial-access,9,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078/T1078.md
-T1560.001,collection,9,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560.001/T1560.001.md
-T1562.001,defense-evasion,9,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md
-T1567.002,exfiltration,9,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1567.002/T1567.002.md
-T1016,discovery,7,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1016/T1016.md
-T1047,execution,7,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1047/T1047.md
-T1053.005,execution,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.005/T1053.005.md
-T1053.005,persistence,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.005/T1053.005.md
-T1053.005,privilege-escalation,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.005/T1053.005.md
-T1056.001,collection,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1056.001/T1056.001.md
-T1056.001,credential-access,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1056.001/T1056.001.md
-T1059.005,execution,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.005/T1059.005.md
-T1070,defense-evasion,7,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070/T1070.md
-T1071.001,command-and-control,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1071.001/T1071.001.md
-T1082,discovery,7,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1082/T1082.md
-T1132.001,command-and-control,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1132.001/T1132.001.md
-T1566.002,initial-access,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1566.002/T1566.002.md
-T1583.001,resource-development,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1583.001/T1583.001.md
-T1585.002,resource-development,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1585.002/T1585.002.md
-T1588.002,resource-development,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1588.002/T1588.002.md
-T1608.001,resource-development,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1608.001/T1608.001.md
-T1656,defense-evasion,7,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1656/T1656.md
-T1005,collection,6,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1005/T1005.md
-T1049,discovery,6,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md
-T1057,discovery,6,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1057/T1057.md
-T1105,command-and-control,6,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md
-T1189,initial-access,6,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1189/T1189.md
-T1203,execution,6,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1203/T1203.md
-T1204.002,execution,6,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1204.002/T1204.002.md
-T1566.001,initial-access,6,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1566.001/T1566.001.md
-T1018,discovery,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1018/T1018.md
-T1027.001,defense-evasion,5,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.001/T1027.001.md
-T1133,persistence,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1133/T1133.md
-T1133,initial-access,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1133/T1133.md
-T1213.002,collection,5,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1213.002/T1213.002.md
-T1219,command-and-control,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1219/T1219.md
-T1482,discovery,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1482/T1482.md
-T1486,impact,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1486/T1486.md
-T1531,impact,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1531/T1531.md
-T1558,credential-access,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558/T1558.md
-T1657,impact,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1657/T1657.md
-T1001.003,command-and-control,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1001.003/T1001.003.md
-T1008,command-and-control,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1008/T1008.md
-T1010,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1010/T1010.md
-T1012,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1012/T1012.md
-T1021.002,lateral-movement,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.002/T1021.002.md
-T1021.004,lateral-movement,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.004/T1021.004.md
-T1027.002,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.002/T1027.002.md
-T1027.007,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.007/T1027.007.md
-T1027.009,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.009/T1027.009.md
-T1027.013,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.013/T1027.013.md
-T1033,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1033/T1033.md
-T1036.003,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md
-T1036.004,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.004/T1036.004.md
-T1036.008,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.008/T1036.008.md
-T1041,exfiltration,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1041/T1041.md
-T1046,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1046/T1046.md
-T1048.003,exfiltration,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1048.003/T1048.003.md
-T1055.001,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055.001/T1055.001.md
-T1055.001,privilege-escalation,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055.001/T1055.001.md
-T1059.003,execution,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.003/T1059.003.md
-T1070.003,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.003/T1070.003.md
-T1070.004,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.004/T1070.004.md
-T1070.006,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.006/T1070.006.md
-T1074.001,collection,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1074.001/T1074.001.md
-T1083,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1083/T1083.md
-T1087.002,discovery,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1087.002/T1087.002.md
-T1090.001,command-and-control,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1090.001/T1090.001.md
-T1090.002,command-and-control,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1090.002/T1090.002.md
-T1098,persistence,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1098/T1098.md
-T1098,privilege-escalation,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1098/T1098.md
-T1102.002,command-and-control,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1102.002/T1102.002.md
-T1104,command-and-control,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1104/T1104.md
-T1106,execution,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1106/T1106.md
-T1110,credential-access,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1110/T1110.md
-T1110.003,credential-access,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1110.003/T1110.003.md
-T1124,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1124/T1124.md
-T1134.002,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.002/T1134.002.md
-T1134.002,privilege-escalation,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.002/T1134.002.md
-T1140,defense-evasion,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md
-T1202,defense-evasion,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md
-T1204.001,execution,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1204.001/T1204.001.md
-T1218,defense-evasion,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218/T1218.md
-T1218.005,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.005/T1218.005.md
-T1218.010,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.010/T1218.010.md
-T1218.011,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.011/T1218.011.md
-T1220,defense-evasion,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1220/T1220.md
-T1221,defense-evasion,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1221/T1221.md
-T1485,impact,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1485/T1485.md
-T1489,impact,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1489/T1489.md
-T1491.001,impact,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1491.001/T1491.001.md
-T1497.001,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1497.001/T1497.001.md
-T1497.001,discovery,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1497.001/T1497.001.md
-T1497.003,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1497.003/T1497.003.md
-T1497.003,discovery,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1497.003/T1497.003.md
-T1505.004,persistence,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1505.004/T1505.004.md
-T1529,impact,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1529/T1529.md
-T1534,lateral-movement,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1534/T1534.md
-T1542.003,persistence,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1542.003/T1542.003.md
-T1542.003,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1542.003/T1542.003.md
-T1543.003,persistence,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1543.003/T1543.003.md
-T1543.003,privilege-escalation,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1543.003/T1543.003.md
-T1547.001,persistence,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.001/T1547.001.md
-T1547.001,privilege-escalation,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.001/T1547.001.md
-T1547.009,persistence,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.009/T1547.009.md
-T1547.009,privilege-escalation,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.009/T1547.009.md
-T1553.002,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1553.002/T1553.002.md
-T1557.001,credential-access,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1557.001/T1557.001.md
-T1557.001,collection,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1557.001/T1557.001.md
-T1560,collection,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560/T1560.md
-T1560.002,collection,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560.002/T1560.002.md
-T1560.003,collection,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560.003/T1560.003.md
-T1561.001,impact,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1561.001/T1561.001.md
-T1561.002,impact,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1561.002/T1561.002.md
-T1562.004,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md
-T1564.001,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564.001/T1564.001.md
-T1566.003,initial-access,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1566.003/T1566.003.md
-T1571,command-and-control,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1571/T1571.md
-T1573.001,command-and-control,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1573.001/T1573.001.md
-T1574.001,persistence,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md
-T1574.001,privilege-escalation,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md
-T1574.001,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md
-T1574.013,persistence,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.013/T1574.013.md
-T1574.013,privilege-escalation,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.013/T1574.013.md
-T1574.013,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.013/T1574.013.md
-T1583.004,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1583.004/T1583.004.md
-T1583.006,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1583.006/T1583.006.md
-T1584.001,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1584.001/T1584.001.md
-T1584.004,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1584.004/T1584.004.md
-T1585.001,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1585.001/T1585.001.md
-T1587.001,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1587.001/T1587.001.md
-T1587.002,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1587.002/T1587.002.md
-T1588.003,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1588.003/T1588.003.md
-T1588.004,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1588.004/T1588.004.md
-T1589,reconnaissance,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1589/T1589.md
-T1589.002,reconnaissance,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1589.002/T1589.002.md
-T1591,reconnaissance,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1591/T1591.md
-T1591.004,reconnaissance,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1591.004/T1591.004.md
-T1593.001,reconnaissance,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1593.001/T1593.001.md
-T1608.002,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1608.002/T1608.002.md
-T1614.001,discovery,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1614.001/T1614.001.md
-T1620,defense-evasion,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1620/T1620.md
-T1622,defense-evasion,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1622/T1622.md
-T1622,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1622/T1622.md
-T1680,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1680/T1680.md
-T1056,collection,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1056/T1056.md
-T1056,credential-access,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1056/T1056.md
-T1070.008,defense-evasion,3,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.008/T1070.008.md
-T1087.001,discovery,3,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1087.001/T1087.001.md
-T1102,command-and-control,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1102/T1102.md
-T1111,credential-access,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1111/T1111.md
-T1112,defense-evasion,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1112/T1112.md
-T1112,persistence,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1112/T1112.md
-T1113,collection,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md
-T1518.001,discovery,3,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md
-T1530,collection,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1530/T1530.md
-T1539,credential-access,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1539/T1539.md
-T1547,persistence,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547/T1547.md
-T1547,privilege-escalation,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547/T1547.md
-T1555.003,credential-access,3,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555.003/T1555.003.md
-T1573.002,command-and-control,3,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1573.002/T1573.002.md
-T1583.003,resource-development,3,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1583.003/T1583.003.md
-T1027.003,defense-evasion,2,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.003/T1027.003.md
-T1588.001,resource-development,2,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1588.001/T1588.001.md
-T1590.005,reconnaissance,2,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1590.005/T1590.005.md
-T1592.002,reconnaissance,2,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1592.002/T1592.002.md
+techniqueID,technique_name,tactic,score,is_subtechnique,atomic_link
+T1036.005,Match Legitimate Resource Name or Location,defense-evasion,12,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.005/T1036.005.md
+T1059.001,PowerShell,execution,12,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md
+T1021.001,Remote Desktop Protocol,lateral-movement,9,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.001/T1021.001.md
+T1078,Valid Accounts,defense-evasion,9,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078/T1078.md
+T1078,Valid Accounts,persistence,9,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078/T1078.md
+T1078,Valid Accounts,privilege-escalation,9,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078/T1078.md
+T1078,Valid Accounts,initial-access,9,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078/T1078.md
+T1560.001,Archive via Utility,collection,9,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560.001/T1560.001.md
+T1562.001,Disable or Modify Tools,defense-evasion,9,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md
+T1567.002,Exfiltration to Cloud Storage,exfiltration,9,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1567.002/T1567.002.md
+T1016,System Network Configuration Discovery,discovery,7,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1016/T1016.md
+T1047,Windows Management Instrumentation,execution,7,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1047/T1047.md
+T1053.005,Scheduled Task,execution,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.005/T1053.005.md
+T1053.005,Scheduled Task,persistence,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.005/T1053.005.md
+T1053.005,Scheduled Task,privilege-escalation,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.005/T1053.005.md
+T1056.001,Keylogging,collection,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1056.001/T1056.001.md
+T1056.001,Keylogging,credential-access,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1056.001/T1056.001.md
+T1059.005,Visual Basic,execution,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.005/T1059.005.md
+T1070,Indicator Removal,defense-evasion,7,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070/T1070.md
+T1071.001,Web Protocols,command-and-control,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1071.001/T1071.001.md
+T1082,System Information Discovery,discovery,7,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1082/T1082.md
+T1132.001,Standard Encoding,command-and-control,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1132.001/T1132.001.md
+T1566.002,Spearphishing Link,initial-access,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1566.002/T1566.002.md
+T1583.001,Domains,resource-development,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1583.001/T1583.001.md
+T1585.002,Email Accounts,resource-development,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1585.002/T1585.002.md
+T1588.002,Tool,resource-development,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1588.002/T1588.002.md
+T1608.001,Upload Malware,resource-development,7,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1608.001/T1608.001.md
+T1656,Impersonation,defense-evasion,7,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1656/T1656.md
+T1005,Data from Local System,collection,6,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1005/T1005.md
+T1049,System Network Connections Discovery,discovery,6,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md
+T1057,Process Discovery,discovery,6,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1057/T1057.md
+T1105,Ingress Tool Transfer,command-and-control,6,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md
+T1189,Drive-by Compromise,initial-access,6,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1189/T1189.md
+T1203,Exploitation for Client Execution,execution,6,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1203/T1203.md
+T1204.002,Malicious File,execution,6,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1204.002/T1204.002.md
+T1566.001,Spearphishing Attachment,initial-access,6,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1566.001/T1566.001.md
+T1018,Remote System Discovery,discovery,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1018/T1018.md
+T1027.001,Binary Padding,defense-evasion,5,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.001/T1027.001.md
+T1133,External Remote Services,persistence,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1133/T1133.md
+T1133,External Remote Services,initial-access,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1133/T1133.md
+T1213.002,Sharepoint,collection,5,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1213.002/T1213.002.md
+T1219,Remote Access Tools,command-and-control,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1219/T1219.md
+T1482,Domain Trust Discovery,discovery,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1482/T1482.md
+T1486,Data Encrypted for Impact,impact,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1486/T1486.md
+T1531,Account Access Removal,impact,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1531/T1531.md
+T1558,Steal or Forge Kerberos Tickets,credential-access,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558/T1558.md
+T1657,Financial Theft,impact,5,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1657/T1657.md
+T1001.003,Protocol or Service Impersonation,command-and-control,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1001.003/T1001.003.md
+T1008,Fallback Channels,command-and-control,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1008/T1008.md
+T1010,Application Window Discovery,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1010/T1010.md
+T1012,Query Registry,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1012/T1012.md
+T1021.002,SMB/Windows Admin Shares,lateral-movement,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.002/T1021.002.md
+T1021.004,SSH,lateral-movement,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.004/T1021.004.md
+T1027.002,Software Packing,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.002/T1027.002.md
+T1027.007,Dynamic API Resolution,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.007/T1027.007.md
+T1027.009,Embedded Payloads,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.009/T1027.009.md
+T1027.013,Encrypted/Encoded File,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.013/T1027.013.md
+T1033,System Owner/User Discovery,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1033/T1033.md
+T1036.003,Rename Legitimate Utilities,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md
+T1036.004,Masquerade Task or Service,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.004/T1036.004.md
+T1036.008,Masquerade File Type,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.008/T1036.008.md
+T1041,Exfiltration Over C2 Channel,exfiltration,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1041/T1041.md
+T1046,Network Service Discovery,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1046/T1046.md
+T1048.003,Exfiltration Over Unencrypted Non-C2 Protocol,exfiltration,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1048.003/T1048.003.md
+T1055.001,Dynamic-link Library Injection,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055.001/T1055.001.md
+T1055.001,Dynamic-link Library Injection,privilege-escalation,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055.001/T1055.001.md
+T1059.003,Windows Command Shell,execution,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.003/T1059.003.md
+T1070.003,Clear Command History,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.003/T1070.003.md
+T1070.004,File Deletion,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.004/T1070.004.md
+T1070.006,Timestomp,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.006/T1070.006.md
+T1074.001,Local Data Staging,collection,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1074.001/T1074.001.md
+T1083,File and Directory Discovery,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1083/T1083.md
+T1087.002,Domain Account,discovery,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1087.002/T1087.002.md
+T1090.001,Internal Proxy,command-and-control,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1090.001/T1090.001.md
+T1090.002,External Proxy,command-and-control,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1090.002/T1090.002.md
+T1098,Account Manipulation,persistence,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1098/T1098.md
+T1098,Account Manipulation,privilege-escalation,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1098/T1098.md
+T1102.002,Bidirectional Communication,command-and-control,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1102.002/T1102.002.md
+T1104,Multi-Stage Channels,command-and-control,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1104/T1104.md
+T1106,Native API,execution,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1106/T1106.md
+T1110,Brute Force,credential-access,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1110/T1110.md
+T1110.003,Password Spraying,credential-access,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1110.003/T1110.003.md
+T1124,System Time Discovery,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1124/T1124.md
+T1134.002,Create Process with Token,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.002/T1134.002.md
+T1134.002,Create Process with Token,privilege-escalation,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.002/T1134.002.md
+T1140,Deobfuscate/Decode Files or Information,defense-evasion,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md
+T1202,Indirect Command Execution,defense-evasion,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md
+T1204.001,Malicious Link,execution,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1204.001/T1204.001.md
+T1218,System Binary Proxy Execution,defense-evasion,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218/T1218.md
+T1218.005,Mshta,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.005/T1218.005.md
+T1218.010,Regsvr32,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.010/T1218.010.md
+T1218.011,Rundll32,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.011/T1218.011.md
+T1220,XSL Script Processing,defense-evasion,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1220/T1220.md
+T1221,Template Injection,defense-evasion,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1221/T1221.md
+T1485,Data Destruction,impact,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1485/T1485.md
+T1489,Service Stop,impact,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1489/T1489.md
+T1491.001,Internal Defacement,impact,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1491.001/T1491.001.md
+T1497.001,System Checks,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1497.001/T1497.001.md
+T1497.001,System Checks,discovery,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1497.001/T1497.001.md
+T1497.003,Time Based Checks,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1497.003/T1497.003.md
+T1497.003,Time Based Checks,discovery,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1497.003/T1497.003.md
+T1505.004,IIS Components,persistence,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1505.004/T1505.004.md
+T1529,System Shutdown/Reboot,impact,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1529/T1529.md
+T1534,Internal Spearphishing,lateral-movement,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1534/T1534.md
+T1542.003,Bootkit,persistence,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1542.003/T1542.003.md
+T1542.003,Bootkit,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1542.003/T1542.003.md
+T1543.003,Windows Service,persistence,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1543.003/T1543.003.md
+T1543.003,Windows Service,privilege-escalation,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1543.003/T1543.003.md
+T1547.001,Registry Run Keys / Startup Folder,persistence,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.001/T1547.001.md
+T1547.001,Registry Run Keys / Startup Folder,privilege-escalation,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.001/T1547.001.md
+T1547.009,Shortcut Modification,persistence,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.009/T1547.009.md
+T1547.009,Shortcut Modification,privilege-escalation,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.009/T1547.009.md
+T1553.002,Code Signing,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1553.002/T1553.002.md
+T1557.001,LLMNR/NBT-NS Poisoning and SMB Relay,credential-access,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1557.001/T1557.001.md
+T1557.001,LLMNR/NBT-NS Poisoning and SMB Relay,collection,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1557.001/T1557.001.md
+T1560,Archive Collected Data,collection,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560/T1560.md
+T1560.002,Archive via Library,collection,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560.002/T1560.002.md
+T1560.003,Archive via Custom Method,collection,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560.003/T1560.003.md
+T1561.001,Disk Content Wipe,impact,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1561.001/T1561.001.md
+T1561.002,Disk Structure Wipe,impact,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1561.002/T1561.002.md
+T1562.004,Disable or Modify System Firewall,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md
+T1564.001,Hidden Files and Directories,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564.001/T1564.001.md
+T1566.003,Spearphishing via Service,initial-access,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1566.003/T1566.003.md
+T1571,Non-Standard Port,command-and-control,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1571/T1571.md
+T1573.001,Symmetric Cryptography,command-and-control,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1573.001/T1573.001.md
+T1574.001,DLL,persistence,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md
+T1574.001,DLL,privilege-escalation,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md
+T1574.001,DLL,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md
+T1574.013,KernelCallbackTable,persistence,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.013/T1574.013.md
+T1574.013,KernelCallbackTable,privilege-escalation,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.013/T1574.013.md
+T1574.013,KernelCallbackTable,defense-evasion,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.013/T1574.013.md
+T1583.004,Server,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1583.004/T1583.004.md
+T1583.006,Web Services,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1583.006/T1583.006.md
+T1584.001,Domains,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1584.001/T1584.001.md
+T1584.004,Server,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1584.004/T1584.004.md
+T1585.001,Social Media Accounts,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1585.001/T1585.001.md
+T1587.001,Malware,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1587.001/T1587.001.md
+T1587.002,Code Signing Certificates,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1587.002/T1587.002.md
+T1588.003,Code Signing Certificates,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1588.003/T1588.003.md
+T1588.004,Digital Certificates,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1588.004/T1588.004.md
+T1589,Gather Victim Identity Information,reconnaissance,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1589/T1589.md
+T1589.002,Email Addresses,reconnaissance,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1589.002/T1589.002.md
+T1591,Gather Victim Org Information,reconnaissance,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1591/T1591.md
+T1591.004,Identify Roles,reconnaissance,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1591.004/T1591.004.md
+T1593.001,Social Media,reconnaissance,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1593.001/T1593.001.md
+T1608.002,Upload Tool,resource-development,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1608.002/T1608.002.md
+T1614.001,System Language Discovery,discovery,4,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1614.001/T1614.001.md
+T1620,Reflective Code Loading,defense-evasion,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1620/T1620.md
+T1622,Debugger Evasion,defense-evasion,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1622/T1622.md
+T1622,Debugger Evasion,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1622/T1622.md
+T1680,Local Storage Discovery,discovery,4,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1680/T1680.md
+T1056,Input Capture,collection,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1056/T1056.md
+T1056,Input Capture,credential-access,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1056/T1056.md
+T1070.008,Clear Mailbox Data,defense-evasion,3,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.008/T1070.008.md
+T1087.001,Local Account,discovery,3,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1087.001/T1087.001.md
+T1102,Web Service,command-and-control,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1102/T1102.md
+T1111,Multi-Factor Authentication Interception,credential-access,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1111/T1111.md
+T1112,Modify Registry,defense-evasion,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1112/T1112.md
+T1112,Modify Registry,persistence,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1112/T1112.md
+T1113,Screen Capture,collection,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md
+T1518.001,Security Software Discovery,discovery,3,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md
+T1530,Data from Cloud Storage,collection,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1530/T1530.md
+T1539,Steal Web Session Cookie,credential-access,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1539/T1539.md
+T1547,Boot or Logon Autostart Execution,persistence,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547/T1547.md
+T1547,Boot or Logon Autostart Execution,privilege-escalation,3,False,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547/T1547.md
+T1555.003,Credentials from Web Browsers,credential-access,3,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555.003/T1555.003.md
+T1573.002,Asymmetric Cryptography,command-and-control,3,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1573.002/T1573.002.md
+T1583.003,Virtual Private Server,resource-development,3,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1583.003/T1583.003.md
+T1027.003,Steganography,defense-evasion,2,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.003/T1027.003.md
+T1588.001,Malware,resource-development,2,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1588.001/T1588.001.md
+T1590.005,IP Addresses,reconnaissance,2,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1590.005/T1590.005.md
+T1592.002,Software,reconnaissance,2,True,https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1592.002/T1592.002.md
