@@ -26,7 +26,9 @@ Il permet d’extraire, trier et valider les techniques en fonction de leur scor
 * 📈 Tri des résultats par score (décroissant)
 * 🧬 Distinction entre techniques et sous-techniques
 * 🔗 Génération automatique des liens Atomic Red Team
+* 🏷️ Enrichissement avec les noms officiels MITRE ATT&CK depuis les sources MITRE officielles
 * 📁 Export des résultats en CSV
+* 📝 Génération de rapports Markdown de synthèse en complément de la sortie console et CSV
 * ⚡ Utilisation en ligne de commande pour une analyse rapide
 
 ---
@@ -42,14 +44,20 @@ cd mitre-navigator-score-analyzer
 
 ### Linux / macOS
 
-```bash id="qk2z7n"
+```bash
 python3 mitre_score_analyzer.py --file example_layer.json --top 10 --csv
+python3 mitre_score_analyzer.py --file example_layer.json --csv --output reports/example.csv
+python3 mitre_score_analyzer.py --file example_layer.json --top 10 --csv --markdown
+python3 mitre_score_analyzer.py --file example_layer.json --top 10 --csv --markdown --lookup-names
 ```
 
 ### Windows
 
-```bash id="m3j5ax"
+```bash
 py mitre_score_analyzer.py --file example_layer.json --top 10 --csv
+py mitre_score_analyzer.py --file example_layer.json --csv --output reports\example.csv
+py mitre_score_analyzer.py --file example_layer.json --top 10 --csv --markdown --markdown-output reports\example.md
+py mitre_score_analyzer.py --file example_layer.json --top 10 --csv --markdown --lookup-names
 ```
 
 ---
@@ -61,6 +69,28 @@ py mitre_score_analyzer.py --file example_layer.json --top 10 --csv
 | `--file` | Chemin vers le fichier JSON MITRE Navigator  |
 | `--top`  | Nombre de techniques à afficher (défaut : 4) |
 | `--csv`  | Exporter les résultats en CSV                |
+| `--output` | Chemin CSV personnalisé (nécessite `--csv`) |
+| `--markdown` | Générer un rapport Markdown de synthèse |
+| `--markdown-output` | Chemin Markdown personnalisé (nécessite `--markdown`) |
+| `--lookup-names` | Rechercher les noms des techniques depuis les sources ATT&CK officielles de MITRE |
+| `--attack-domain` | Domaine ATT&CK pour la recherche : `enterprise`, `mobile` ou `ics` |
+| `--lookup-timeout` | Délai maximum en secondes pour les requêtes de recherche ATT&CK |
+
+Lorsque `--csv` est utilisé sans `--output`, l'analyseur exporte vers :
+
+```text
+output/<nom-du-fichier-source>_top_techniques.csv
+```
+
+Lorsque `--markdown` est utilisé sans `--markdown-output`, l'analyseur exporte vers :
+
+```text
+output/<nom-du-fichier-source>_report.md
+```
+
+Le fichier Markdown est pensé comme une synthèse partageable en complément de la sortie console, et peut être généré en même temps que l'export CSV.
+
+Lorsque `--lookup-names` est activé, l'analyseur tente d'enrichir la sortie console, le CSV et le rapport Markdown avec les noms officiels ATT&CK récupérés depuis les sources TAXII et STIX officielles de MITRE. Si ces sources sont indisponibles, l'analyse continue sans les noms.
 
 ---
 
